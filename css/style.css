@@ -1,0 +1,82 @@
+body {}
+
+
+/* Styling Navbar and inputs */
+/****************************/
+.navbar-brand-text {
+    color: #ff0b71 !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.19);
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-container form {
+    border: 0.1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+/*End of Styling Navbar and inputs*/
+
+.carousel-pic {
+    height: 500px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.card img {
+    height: 200px;
+}
+
+
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.navbar-text {
+    margin-right: 10px;
+}
+
+.form {
+    margin-left: 55px;
+}
+
+.image-container {
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.image-img-top {
+
+
+    margin-bottom: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.img-thumbnail {
+    margin: 20px;
+}
+
+.container-text {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
