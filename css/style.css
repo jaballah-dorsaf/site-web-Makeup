@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+
+    font-family: 'Muli', sans-serif;
+
+}
+
+/* Styling Navbar and inputs */
+/****************************/
+.navbar-brand-text {
+    color: #ff0b71 !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.19);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.search-btn {
+    color: deeppink;
+    border: 4px solid #e60aa4;
+}
+
+.search-btn:hover {
+    background-color: deeppink;
+    border-color: deeppink;
+}
+
+.search-btn:active {
+    background-color: deeppink !important;
+    border-color: deeppink !important;
+    box-shadow: 0 1px 2px 0 deeppink, 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+
+}
+
+.search-btn:active:focus {
+    color: #ffffff;
+    background-color: #161617;
+    border-color: #494F57;
+}
+
+.form-control:focus {
+    border-color: deeppink;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.has-error .form-control:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.navbar-text {
+    margin-right: 10px;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-container form {
+
+    padding: 30px;
+    margin: 8px;
+
+}
+
+.form-name {
+    display: flex;
+    justify-content: center;
+    color: #dcdcdc;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.for-name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    font-size: 30px;
+    color: #ff69b4;
+}
+
+.form-text {
+    font-size: 18px;
+    color: #dcdcdc;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.form {
+    margin-left: 55px;
+}
+
+.cart {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/*End of Styling Navbar and inputs*/
+
+.carousel-pic {
+    height: 430px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+
+
+}
+
+.card img {
+    height: 100px;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.text {
+    font-size: 23px;
+    text-align: center;
+    color: rgb(13, 27, 233);
+
+}
+
+
+
+/* Styling Browse Page/ recipes.html */
+/****************************/
+
+#main-body {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#categories {
+    padding: 30px;
+
+    width: 100vw;
+
+    background-image: url('../res/makeup.jpg');
+
+}
+
+
+
+.categ-name {
+    margin-bottom: 20px;
+}
+
+.categ-name h4:hover {
+    cursor: pointer;
+}
+
+
+#search-results {
+    padding: 30px;
+    max-height: 100vh;
+    overflow-y: scroll;
+
+}
+
+.search-card {
+
+    height: 210px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+}
+
+.search-card:hover {
+    transform: scale(1.019);
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+@media (max-width:1200px) {
+    .search-card {
+        height: 500px;
+    }
+
+    .rec-photo {
+        height: 130px;
+        width: 150px;
+    }
+}
+
+.rec-thumb {
+    height: 130px;
+    width: 150px;
+    vertical-align: center;
+}
+
+.rec-details {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.rec-title {
+    font-size: 0.9em;
+}
+
+.rec-desc {
+    color: #7F7F7F;
+    font-size: 0.9em;
+}
+
+.rec-infos {
+    color: #7F7F7F;
+    font-size: 0.95em;
+}
+
+.categ-name h4:hover {
+    cursor: pointer;
+}
+
+.sub-categ {
+    display: none;
+}
+
+/*End of Styling Browse Page/*/
+
+
+
+.image-container {
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+
+.image-img-top {
+
+
+    margin-bottom: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.img-thumbnail {
+    margin: 20px;
+}
+
+.container-text {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*Footer Styling */
+
+.footer-container {
+
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-text {
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
